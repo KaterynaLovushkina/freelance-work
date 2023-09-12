@@ -1,0 +1,59 @@
+
+.contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: #F5F5F5;
+    position: relative;
+
+    .contact-info{
+        background: #FFFFFF;
+        padding: 10rem 4rem 0 ;
+
+        h1 {
+            color: #3D3025;
+            font-size: 3.375rem;
+            font-family: 'Sansation', sans-serif;
+        }
+    
+        .contact-text {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+    
+            p {
+                color: #B4AEA7;
+                margin-bottom: 0.5rem;
+            }
+    
+            .link{
+                display: flex;
+                align-items: center;
+    
+                img {
+                    width: 15px;
+                    height: auto;
+                    margin-right: 5px;
+                }
+            }
+            .links {
+                display: flex;
+                gap: 1.5rem;
+            }
+            a {
+                text-decoration: none;
+                color: #3D3025;
+                cursor: pointer;
+            }
+        }
+    
+        .map {
+            position: absolute;
+            max-width: 202px;
+            max-height: 218px;
+            width: 100%;
+            height: auto;
+            right: 1rem;
+            top: 45%;
+        }
+    }
+}

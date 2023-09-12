@@ -1,38 +1,55 @@
-.App {
-  text-align: center;
+*,
+::after,
+::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+@font-face {
+  font-family: 'Sansation';
+  src: url('../src/assets/fonts/Sansation-Regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: center;  
+
 }
 
-.App-link {
-  color: #61dafb;
+.custom-container{
+  width: 80vw;
+  max-width: 1680px;
+  min-width: 300px;
+  font-family: 'Ubuntu', sans-serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+img{
+  display: block;
+  width: 100%;
+  height: auto;     
+}
+
+.header-fixed {
+  position: fixed;
+  background: green;
+  top: 0;
+  width: 100%;
+  z-index: 15;
+  background: white;
+}
+
+@media screen and (max-width: 1680px) {
+  * {
+    font-size: 12px;
   }
 }
+
+@media screen and (max-width: 1280px) {
+  * {
+    font-size: 9px;
+  }
+}
+

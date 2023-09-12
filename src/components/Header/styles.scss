@@ -1,0 +1,55 @@
+.logo {
+    max-width: 10rem;
+    cursor: pointer;
+}
+header {
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 3rem 0 ;
+
+    .input-nav-group {
+        position: relative;
+    
+        input {
+            width: 20vw;
+            border: 0.5px solid #A19C97;
+            border-radius: 5px 5px;
+            padding: 1rem 25px;
+        }
+        input::placeholder {
+            color: #B9B6B3;
+            font-size: 1.25rem;
+        }
+        button {
+            border: none;
+            background: transparent;
+            position: absolute;
+            right: 25px;
+            width: 1.75rem;
+            top: 20%;
+        }
+    
+    }
+    .info {
+        gap: 0.3rem;
+    
+        a{
+            text-decoration: none;
+            color: black;
+          }
+        img {
+            width: 1.5rem;
+        }
+    }
+
+    .email-list{
+        position: absolute;
+        top: 7.5rem;
+        right: -5rem;
+        z-index: 10;
+    }
+}
+
+
+

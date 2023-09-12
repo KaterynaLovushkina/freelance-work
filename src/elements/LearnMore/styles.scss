@@ -1,0 +1,26 @@
+.more {
+    display: flex;
+    align-items: center;
+
+    button {
+        background: transparent;
+        border: none;
+        font-family: 'Sansation', sans-serif;
+        text-decoration: underline;
+        font-size: 1.125rem;
+        cursor: pointer;
+        clear: both;
+        display: inline-block;
+        white-space: nowrap;
+    }
+    .img-elipse {
+        max-height: 3.125rem;
+        max-width:  3.125rem;
+    }
+    .img-arrow {
+        max-width: 1.875rem;
+        max-height: 10px;
+        padding-left: 2px;
+    }
+
+}

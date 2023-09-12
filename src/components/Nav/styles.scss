@@ -1,0 +1,16 @@
+.navbar-nav{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+
+    a {
+        color: #3D3025;
+        cursor: pointer;
+    }
+    .nav-link.active-link {
+        color: #98887A;
+        text-decoration: underline;
+    }
+}
+
+

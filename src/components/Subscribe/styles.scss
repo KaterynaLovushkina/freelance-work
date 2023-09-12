@@ -1,0 +1,47 @@
+.subscribe {
+    display: flex;
+    padding: 4rem 0;
+    // grid-template-columns: 1fr 1fr 100px;
+    align-items: center;
+
+    h1 {
+        max-width: 742px;
+        width: 46rem;
+        color: #3D3025;
+        font-family: 'Sansation', sans-serif;
+        font-size: 3.375rem;
+    }
+
+    p {
+        color: #B4AEA7;
+        font-size: 1.375rem;
+        padding-top: 1rem;
+    }
+    .more {
+        padding-left: 15%;
+    }
+
+    .input-nav-group {
+        position: relative;
+    
+        input {
+            width: 20vw;
+            border: 0.5px solid #A19C97;
+            border-radius: 5px 5px;
+            padding: 1rem 25px;
+        }
+        input::placeholder {
+            color: #B9B6B3;
+            font-size: 1.25rem;
+        }
+        button {
+            border: none;
+            background: transparent;
+            position: absolute;
+            right: 25px;
+            width: 1.5625rem;
+            top: 35%;
+        }
+    
+    }
+}
