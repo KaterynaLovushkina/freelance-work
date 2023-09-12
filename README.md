@@ -1,3 +1,3 @@
 
 
-This is project that cintains front and bacj end parts
+This is project that contains front and back end parts
