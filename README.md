@@ -1,3 +1,4 @@
 
 
-This is project that contains front and back end parts
+This is  back end part of project 
+First you need to download it and then run the server with node server command
